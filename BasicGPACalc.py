@@ -5,9 +5,11 @@ print("Welcome to the College GPA Calculator!")
 num_of_class = int(input("How many classes are you taking? "))
 
 def gpa_calc():
+    '''Calculates the GPA by dividing all points from grades by number of classes taken'''
     print("Your GPA is: ", total_points/num_of_class)
 
 def enter_grades() -> float:
+    '''User enters grades from their 'classes' and function returns total points accumulated'''
     points = 0
     x = num_of_class
     while x > 0:
